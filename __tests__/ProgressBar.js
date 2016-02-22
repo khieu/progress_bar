@@ -1,7 +1,7 @@
-jest.dontMock('../app/components/ProgressBar.jsx');
+jest.autoMockOff();
 
-import React from 'react';
-import TestUtils from 'react-addons-test-utils';
+const React = require('react');
+const TestUtils = require('react-addons-test-utils');
 
 const ProgressBar = require('../app/components/ProgressBar.jsx').default;
 
