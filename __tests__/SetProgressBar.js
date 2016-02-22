@@ -7,7 +7,7 @@ const SetProgressBar = require('../app/components/SetProgressBar.jsx').default;
 
 describe('SetProgressBar', () => {
 	
-	it('display the default header', () =>{
+	it('change the min value when a button is clicked', () =>{
 
 		var progress = TestUtils.renderIntoDocument(
 			<SetProgressBar />
