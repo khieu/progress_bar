@@ -1,0 +1,92 @@
+body {
+	background: cornsilk;
+  	font-family: sans-serif;
+}
+
+.button {
+	background-color: white; 
+    border: 2px solid #008CBA;
+    border-radius: 5px;
+    margin: 0.5em;
+    color: black;
+    padding: 0.5em 1.5em;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+}
+.button-group {
+	float: left;
+	border: 1px solid #008CBA;;
+	margin-left: 0 ;
+	margin-right: 0;
+	border-radius: 0;
+}
+
+.button:hover {
+    background-color: #008CBA; 
+    color: white;
+    transition: background-color, 0.5s;
+}
+.background-bar {
+	width: 35%;
+	height: 20px;
+	position: relative;
+	background-color: #ddd;
+	border: 1px solid #73AD21;
+	border-radius: 10px;
+}
+
+.input {
+	background-color: white; 
+    border: 1px solid #008CBA;
+    border-radius: 2px;
+    margin: 0.5em;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    width: 5em;
+}
+
+.input:focus {
+	background-color: #d1d1d1; 
+}
+
+.progress-bar {
+	background-color: #4CAF50;
+	height: 100%;
+	position: absolute;
+	border-radius: 10px;
+	transition: width, 1s;
+}
+
+.progress5: {
+	width:5%  !important;
+	background-color: #f63a0f !important;
+}
+.progress25 {
+	width:25% !important;
+	background-color: #f27011 !important;
+}
+.progress50 {
+	width:50% !important;
+	background-color: #f2b01e !important;
+}
+.progress75 {
+	width:75% !important;
+	background-color: #f2d31b !important;
+}
+.progress100 {
+	width:100% !important;
+	background-color: #4CAF50 !important;
+}
+
+.header {
+	display: block;
+	font-size: 15px;
+	padding-bottom: 0.5em;
+}
+
+.progress-bar-wrapper {
+ height: 100px;
+}
